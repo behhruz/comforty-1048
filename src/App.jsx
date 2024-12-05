@@ -1,3 +1,4 @@
+import Categories from "./Components/Category"
 import Navbar from "./Components/Navbar"
 import Portners from "./Components/Portners"
 
@@ -15,6 +16,7 @@ function App() {
 
       <main>
         <Portners />
+        <Categories />
       </main>
     </>
 

@@ -1,4 +1,5 @@
 import Navbar from "./Components/Navbar"
+import Ot from "./Components/ot"
 import Portners from "./Components/Portners"
 
 
@@ -10,11 +11,13 @@ function App() {
     <>
       <header>
         <Navbar />
+        
       </header>
 
 
       <main>
         <Portners />
+        <Ot />
       </main>
     </>
 

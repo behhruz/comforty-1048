@@ -1,3 +1,4 @@
+import Xm from "./Components/Cards"
 import Categories from "./Components/Category"
 import Navbar from "./Components/Navbar"
 import Ot from "./Components/ot"
@@ -12,7 +13,7 @@ function App() {
     <>
       <header>
         <Navbar />
-        
+
       </header>
 
 
@@ -20,6 +21,7 @@ function App() {
         <Portners />
         <Ot />
         <Categories />
+        <Xm />
       </main>
     </>
 

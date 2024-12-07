@@ -8,6 +8,7 @@ import Portners from "./Components/Portners";
 import Ot from "./Components/ot";
 import Categories from "./Components/Category";
 import Xm from "./Components/Cards";
+import Carusel from "./Components/Carousel";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           element={
             <>
               <Navbar />
+              <Carusel />
               <main>
                 <Portners />
                 <Ot />

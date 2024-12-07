@@ -6,8 +6,8 @@ import Logo from '../assets/Logo.png'
 import Info from '../assets/Info.png'
 const Navbar = () => {
     return (
-        <div>
-            <div className=" w-[1536px] p-[20px]n px-[200px] bg-[rgb(39,35,67)] ">
+        <div className='w-full'>
+            <div className=" w-full p-[20px]n px-[200px] bg-[rgb(39,35,67)] ">
                 <div className="">
 
                     <div className="text-[rgb(143,141,157)] p-[10px]  flex justify-between ">
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div>
-                <div className=" w-[1536px] p-[20px]n px-[200px] bg-[#f0f2f3] ">
+                <div className=" w-full p-[20px]n px-[200px] bg-[#f0f2f3] ">
                     <div className="flex justify-between items-center p-[20px]">
                         <img src={Logo} alt="" />
                         <input
@@ -54,7 +54,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <div className=" w-[1536px] border px-[200px]">
+            <div className=" w-full border px-[200px]">
                 <div className="flex justify-between items-center p-[20px]">
                     <div className="flex gap-[20px] items-center">
                         <div className="border p-[10px]">

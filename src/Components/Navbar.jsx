@@ -45,7 +45,10 @@ const Navbar = () => {
                                 <img src={Heart} alt="" />
                             </div>
                             <div className="w-[50px] bg-white p-[10px] border-none rounded-[4px] items-center justify-center flex gap-[5px]">
-                                <img src={Group} alt="" />
+                                <a href="/login">
+                                    <img src={Group} alt="" />
+                                </a>
+
                             </div>
                         </div>
                     </div>

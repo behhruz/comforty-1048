@@ -1,3 +1,4 @@
+import Carusel from "./Components/Carusel"
 import Navbar from "./Components/Navbar"
 import Ot from "./Components/ot"
 import Portners from "./Components/Portners"
@@ -18,6 +19,7 @@ function App() {
       <main>
         <Portners />
         <Ot />
+        <Carusel />
       </main>
     </>
 

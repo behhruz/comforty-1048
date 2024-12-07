@@ -37,7 +37,7 @@ const Carusel = () => {
                   <img
                     src={item.imgUrl}
                     alt={item.Name}
-                    className=" w-[470px]  border-gray-300"
+                    className=" w-[471px]  border-gray-300"
                   />
                 )}
                 

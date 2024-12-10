@@ -9,6 +9,7 @@ import Ot from "./Components/ot";
 import Categories from "./Components/Category";
 import Xm from "./Components/Cards";
 import Carusel from "./Components/Carousel";
+import "./Components/i18n"
 
 function App() {
   return (

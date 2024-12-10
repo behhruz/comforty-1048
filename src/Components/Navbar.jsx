@@ -4,6 +4,7 @@ import Heart from '../assets/Heart.svg'
 
 import Logo from '../assets/Logo.png'
 import Info from '../assets/Info.png'
+import { NavLink } from 'react-router-dom'
 const Navbar = () => {
     return (
         <div className='w-full'>
@@ -42,7 +43,10 @@ const Navbar = () => {
                                 </div>
                             </div>
                             <div className="w-[50px] bg-white p-[10px] border-none rounded-[4px] items-center  justify-center flex gap-[5px]">
+                              <NavLink to={"/yrak"} >
+                                
                                 <img src={Heart} alt="" />
+                                </NavLink>  
                             </div>
                             <div className="w-[50px] bg-white p-[10px] border-none rounded-[4px] items-center justify-center flex gap-[5px]">
                                 <a href="/login">

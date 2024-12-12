@@ -16,8 +16,10 @@ const Categories = () => {
                 const data = await response.json();
                 setCategories(data);
             } catch (err) {
+            
                 setError(err.message);
             } finally {
+             
                 setLoading(false);
             }
         };

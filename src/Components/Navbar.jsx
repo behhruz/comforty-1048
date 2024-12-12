@@ -45,7 +45,7 @@ const Navbar = () => {
                             <div className="w-[50px] bg-white p-[10px] border-none rounded-[4px] items-center  justify-center flex gap-[5px]">
                               <NavLink to={"/yrak"} >
                                 
-                                <img src={Heart} alt="" />
+                                <img src={Heart} alt="yurak" />
                                 </NavLink>  
                             </div>
                             <div className="w-[50px] bg-white p-[10px] border-none rounded-[4px] items-center justify-center flex gap-[5px]">

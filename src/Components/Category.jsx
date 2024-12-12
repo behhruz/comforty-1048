@@ -10,6 +10,7 @@ const Categories = () => {
             try {
                 const response = await fetch("http://localhost:5000/cattegories");
                 if (!response.ok) {
+                
                     throw new Error("Failed to fetch categories");
                 }
                 const data = await response.json();

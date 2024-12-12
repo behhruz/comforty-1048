@@ -12,7 +12,9 @@ const Ot = () => {
     fetch("http://localhost:5000/users")
       .then((response) => response.json())
       .then((response) => setData(response));
-  }, []);
+  
+  
+    }, []);
 
   return (
     <div className="p-8 bg-gray-10  min-h-[40hv] flex flex-col items-center">

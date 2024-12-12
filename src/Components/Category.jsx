@@ -22,6 +22,10 @@ const Categories = () => {
             }
         };
 
+       
+       
+       
+       
         fetchCategories();
     }, []);
 
